@@ -1,0 +1,17 @@
+{
+  "name": "Hurricane Harvey 08-31-2017",
+  "description": "Planet Scenes for Hurricane Harvey on Aug 31, 2017",
+
+  "links": [
+    { "rel": "self", "href": "http://cholmes.github.io/stac-html-x/disasters/hurricane-harvey/0831/catalog.json" },
+    { "rel": "alternate", "href": "https://cholmes.github.io/stac-html-x/0831.html", "type":"html" },
+    { "rel": "parent", "href": "http://cholmes.github.io/stac-html-x/disasters/hurricane-harvey/catalog.json"},
+    { "rel": "item", "href": "20170831_172754_101c.json" },
+    { "rel": "item", "href": "20170831_161742_1044.json" },
+    { "rel": "item", "href": "20170831_161740_1044.json" },
+    { "rel": "item", "href": "20170831_161739_1044.json" },
+    { "rel": "item", "href": "20170831_161738_1044.json" },
+    { "rel": "item", "href": "20170831_161737_1044.json" },
+    { "rel": "item", "href": "20170831_172425_0f4b.json" }
+  ]
+}

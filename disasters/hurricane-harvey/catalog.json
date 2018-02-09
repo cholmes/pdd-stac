@@ -1,0 +1,17 @@
+{
+  "name": "Hurricane Harvey",
+  "description": "Planet Disaster Data makes imagery available directly to the public, volunteers, humanitarian organizations, and other coordinating bodies in support of the International Charter for Space and Major Disasters. This catalog of data is released for Hurricane Harvey, providing a 30 day window pre- and post-disaster. Imagery is provided under Creative Commons licenses, free of charge, with either CC-BY-SA or CC-BY-NC. All new Planet scenes are made available each day, immediately after production. ",
+
+  "links": [
+    { "rel": "self", "href": "http://cholmes.github.io/stac-html-x/disasters/hurricane-harvey/catalog.json" },
+    { "rel": "alternate", "href": "https://cholmes.github.io/stac-html-x/hurricane-harvey.html", "type":"html" },
+    { "rel": "parent", "href": "http://cholmes.github.io/stac-html-x/disasters/catalog.json"},
+    { "rel": "child", "href": "0824/catalog.json" },
+    { "rel": "child", "href": "0830/catalog.json" },
+    { "rel": "child", "href": "0831/catalog.json" },
+    { "rel": "child", "href": "0901/catalog.json" },
+    { "rel": "child", "href": "0903/catalog.json" },
+    { "rel": "child", "href": "0904/catalog.json" },
+    { "rel": "child", "href": "0905/catalog.json" }
+  ]
+}

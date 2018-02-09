@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+  
+    <title>COG Map</title>
+  
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.4/css/ol.css" type="text/css">
+    <script src="https://openlayers.org/en/v4.6.4/build/ol.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    
+  </head>
+  <body>
+
+
+
+        <p> <button onclick="loadCog()">Click me</button> </p>
+        <p> <form>
+          COG URL:<br>
+          <input type="text" name="cog-url" id="cog-url"><br><input type="submit" value="Submit" onclick="loadCog();">
+        </form> </p>
+
+      </div>
+ 
+<!-- /container -->
+
+
+
+    <script>
+   
+
+      function loadCog(){
+        //var name = document.getElementById("cog-url").value;
+        //var url = "http://bstlgagxwg.execute-api.us-east-1.amazonaws.com/production/tiles/{z}/{x}/{y}.png?url=" + name;
+        
+        // var cogLayer = new ol.layer.Tile({
+        //    type: 'base',
+        //    source: new ol.source.XYZ({
+        //      url: url
+        //    })
+        //  });
+        //map.addLayer(cogLayer);
+       //var boundsUrl= "http://bstlgagxwg.execute-api.us-east-1.amazonaws.com/production/bounds?url=" + name;
+        // var boundsUrl="https://bstlgagxwg.execute-api.us-east-1.amazonaws.com/production/bounds?url=http://oin-hotosm.s3.amazonaws.com/594ab0ba1b114600111194a3/0/d66720c4-148c-4e11-9d54-4ae2a6ba6351.tif"
+       //alert(boundsUrl);
+       $.getJSON("https://bstlgagxwg.execute-api.us-east-1.amazonaws.com/production/bounds?url=http://oin-hotosm.s3.amazonaws.com/594ab0ba1b114600111194a3/0/d66720c4-148c-4e11-9d54-4ae2a6ba6351.tif", function(result){
+              $.each(result, function(i, field){
+                  $("div").append(field + " ");
+              });
+          });
+
+        //map.getView().setCenter(ol.proj.fromLonLat([-0.12755, 51.507222]));
+
+
+      }
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "Mount Mayon Volcano",
+  "description": "Planet Disaster Data makes imagery available directly to the public",
+
+  "links": [
+    { "rel": "self", "href": "http://cholmes.github.io/stac-html-x/disasters/mount-mayon/catalog.json" },
+    { "rel": "parent", "href": "http://cholmes.github.io/stac-html-x/disasters/catalog.json"}
+    { "rel": "child", "href": "XXXXX/catalog.json" }
+  ]
+}
