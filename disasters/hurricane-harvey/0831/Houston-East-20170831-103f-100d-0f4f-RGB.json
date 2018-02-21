@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "id": "Houston-East-20170831-103f-100d-0f4f-RGB",
+  "bbox": [
+    -95.73737276800716,
+    29.561332400220497,
+    -95.05332428370095,
+    30.157560439570304
+  ],
+        "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.73737276800716,
+              30.14525788823348
+            ],
+            [
+              -95.06532619920118,
+              30.157560439570304
+            ],
+            [
+              -95.05332428370095,
+              29.57334931237589
+            ],
+            [
+              -95.7214758280382,
+              29.561332400220497
+            ],
+            [
+              -95.73737276800716,
+              30.14525788823348
+            ]
+          ]
+        ],
+
+  "properties": {
+    "start": "2017-08-31T17:24:57.555491Z",
+    "end": "2017-08-31T17:26:17.425067Z",
+    "provider": "Planet",
+    "license": "CC-BY-SA",
+    "pl:cloud_cover": 0.02,
+    "pl:epsg_code": 32615,
+    "pl:ground_control": true,
+    "pl:gsd": 3.7,
+    "pl:instrument": "PS2",
+    "pl:provider": "planetscope",
+    "pl:sun_azimuth": 145.5,
+    "pl:sun_elevation": 64.9,
+    "pl:view_angle": 0.2
+  },
+
+  "links": [
+    { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-RGB.json"},
+    { "rel":"thumbnail", "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_thumb_large.png"},
+    { "rel":"catalog", "href": "http://cholmes.github.io/stac-html-x/disasters/hurricane-harvey/0831/catalog.json"}
+  ],
+
+  "assets": [
+    {
+      "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS.tif",
+      "name": "PSScene4Band GeoTIFF (COG)",
+      "type": "https://api.planet.com/data/v1/asset-types/analytic"
+    },
+    {
+      "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_metadata.xml",
+      "name": "PSScene4Band XML Metadata",
+      "type": "https://api.planet.com/data/v1/asset-types/analytic_xml"
+    },
+    {
+      "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_DN_udm.tif",
+      "name": "PSScene4Band Unusable Data Mask",
+      "type": "https://api.planet.com/data/v1/asset-types/udm"
+    },
+    {
+      "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_3B_Visual.tif",
+      "name": "PSScene4Band GeoTIFF (COG)",
+      "type": "https://api.planet.com/data/v1/asset-types/analytic"
+    }
+    
+
+   ]
+
+ 
+}
