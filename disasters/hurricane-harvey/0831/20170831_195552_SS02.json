@@ -1,0 +1,82 @@
+{
+  "type": "Feature",
+  "id": "2017831_195552_SS02",
+    "bbox": [
+      -95.8332,
+      29.7335,
+      -95.4727,
+      29.8355
+    ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+      -95.8332,
+      29.7335
+        ],
+        [
+      -95.8332,
+      29.8355
+        ],
+        [
+      -95.4727,
+      29.8355
+        ],
+        [
+      -95.4727,
+      29.7335
+        ],
+        [
+      -95.8332,
+      29.7335
+        ]
+      ]
+    ]
+  },
+
+  "properties": {
+    "start": "2017-08-31T19:55:53.513448Z",
+    "end": "2017-08-31T17:27:56:06.258022Z",
+    "provider": "Planet",
+    "license": "CC-BY-SA",
+    "pl:acquired": "2017-08-31T19:55:53.513448Z",
+    "pl:cloud_cover": 0.24,
+    "pl:ground_control": true,
+    "pl:gsd": 1.1,
+    "pl:item_type": "SkySatScene",
+    "pl:provider": "skysat",
+    "pl:published": "2017-09-01T19:31:37Z",
+    "pl:quality_category": "test",
+    "pl:satellite_azimuth": 202.8,
+    "pl:satellite_id": "SS02",
+    "pl:strip_id": "s02_20170831T195552Z",
+    "pl:sun_azimuth": 230.3,
+    "pl:sun_elevation": 59.4,
+    "pl:updated": "2017-11-01T20:32:39Z",
+    "pl:view_angle": 25
+  },
+
+  "links": [
+    { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_195552_ss02.json"},
+    { "rel":"thumbnail", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_195552_ss02_thumb_large.png"},
+    { "rel":"catalog", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json"}
+  ],
+
+  "assets": [
+    {
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB_Corrected.tif",
+      "name": "SkySatScene Visual GeoTIFF (COG)",
+      "type": "https://api.planet.com/data/v1/asset-types/ortho_visual"
+    },
+    {
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB_Corrected.jpg",
+      "name": "SkySatScene Visual JPG (COG)",
+      "type": "JPEG"
+    }
+    
+
+   ]
+
+ 
+}
