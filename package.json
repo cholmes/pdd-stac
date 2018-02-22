@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "parcel src/pages/index.hbs --no-cache",
-    "build": "parcel src/pages/index.hbs  --no-cache --public-url /",
+    "build": "parcel build src/pages/index.hbs  --no-cache --public-url ./",
     "clean": "rm -rf dist && rm -rf .cache"
   }
 }
