@@ -1,39 +1,71 @@
 {
   "type": "Feature",
   "id": "2017831_195552_SS02",
-    "bbox": [
-      -95.8332,
-      29.7335,
-      -95.4727,
-      29.8355
-    ],
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-      -95.8332,
-      29.7335
+        "bbox": [
+          -94.11678314208984,
+          29.916554657596713,
+          -93.79920959472656,
+          30.052156732418428
         ],
-        [
-      -95.8332,
-      29.8355
-        ],
-        [
-      -95.4727,
-      29.8355
-        ],
-        [
-      -95.4727,
-      29.7335
-        ],
-        [
-      -95.8332,
-      29.7335
+     "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.11540985107422,
+              29.998057058071883
+            ],
+            [
+              -94.11609649658203,
+              29.96564257441305
+            ],
+            [
+              -93.82942199707031,
+              29.916554657596713
+            ],
+            [
+              -93.8283920288086,
+              29.94660528850718
+            ],
+            [
+              -93.79920959472656,
+              29.942737894394064
+            ],
+            [
+              -93.79989624023438,
+              29.977836419653794
+            ],
+            [
+              -93.82736206054688,
+              29.981405066834853
+            ],
+            [
+              -93.82530212402342,
+              30.011436098225726
+            ],
+            [
+              -94.11540985107422,
+              30.052156732418428
+            ],
+            [
+              -94.11678314208984,
+              30.02094898463764
+            ],
+            [
+              -94.10202026367188,
+              30.017679032856247
+            ],
+            [
+              -94.10408020019531,
+              29.99627304975274
+            ],
+            [
+              -94.11540985107422,
+              29.998057058071883
+            ]
+          ]
         ]
-      ]
-    ]
-  },
+      },
 
   "properties": {
     "start": "2017-08-31T19:55:53.513448Z",
@@ -59,19 +91,19 @@
 
   "links": [
     { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_195552_ss02.json"},
-    { "rel":"thumbnail", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_195552_ss02_thumb_large.png"},
+    { "rel":"thumbnail", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB.png"},
     { "rel":"catalog", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json"}
   ],
 
   "assets": [
     {
-      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB_Corrected.tif",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB.tif",
       "name": "SkySatScene Visual GeoTIFF (COG)",
       "type": "https://api.planet.com/data/v1/asset-types/ortho_visual"
     },
     {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB_Corrected.jpg",
-      "name": "SkySatScene Visual JPG (COG)",
+      "name": "SkySatScene Visual JPG",
       "type": "JPEG"
     }
     
