@@ -52,33 +52,17 @@
 
   "links": [
     { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-RGB.json"},
-    { "rel":"thumbnail", "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_thumb_large.png"},
+    { "rel":"thumbnail", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.png"},
     { "rel":"catalog", "href": "http://cholmes.github.io/stac-html-x/disasters/hurricane-harvey/0831/catalog.json"}
   ],
 
   "assets": [
     {
-      "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS.tif",
-      "name": "PSScene4Band GeoTIFF (COG)",
-      "type": "https://api.planet.com/data/v1/asset-types/analytic"
-    },
-    {
-      "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_metadata.xml",
-      "name": "PSScene4Band XML Metadata",
-      "type": "https://api.planet.com/data/v1/asset-types/analytic_xml"
-    },
-    {
-      "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_DN_udm.tif",
-      "name": "PSScene4Band Unusable Data Mask",
-      "type": "https://api.planet.com/data/v1/asset-types/udm"
-    },
-    {
-      "href": "https://s3-us-west-2.amazonaws.com/planet-disaster-data/hurricane-harvey/0831/20170831_172754_101c_3B_Visual.tif",
-      "name": "PSScene4Band GeoTIFF (COG)",
-      "type": "https://api.planet.com/data/v1/asset-types/analytic"
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.tif",
+      "name": "3 Band RGB Mosaic",
+      "type": "mosaic"
     }
     
-
    ]
 
  
