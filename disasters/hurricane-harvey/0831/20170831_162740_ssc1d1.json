@@ -104,42 +104,47 @@
       },
 
   "properties": {
-    "start": "2017-08-31T16:27:42.176605Z",
-    "end": "2017-08-31T16:28:08.930707Z",
+    "datetime": "2017-08-31T16:27:42.176605Z",
     "provider": "Planet",
     "license": "CC-BY-SA",
-    "pl:acquired": "2017-08-31T16:27:42.176605Z",
-    "pl:cloud_cover": 0,
+    "eo:cloud_cover": 0,
+    "eo:gsd": 0.9,
+    "eo:azimuth": 121.3,
+    "eo:sun_azimuth": 122,
+    "eo:sun_elevation": 56.3,
+    "eo:off_nadir": 0.2,
     "pl:ground_control": true,
-    "pl:gsd": 0.9,
     "pl:item_type": "SkySatScene",
     "pl:provider": "skysat",
     "pl:published": "2017-09-01T19:37:35Z",
     "pl:quality_category": "standard",
-    "pl:satellite_azimuth": 121.3,
     "pl:satellite_id": "SSC1",
     "pl:strip_id": "s03_20170831T162740Z",
-    "pl:sun_azimuth": 122,
-    "pl:sun_elevation": 56.3,
     "pl:updated": "2017-11-01T21:09:02Z",
     "pl:view_angle": 27.2
   },
 
   "links": [
     { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_162740_ssc1d1.json"},
-    { "rel":"thumbnail", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_Freeport_s03_20170831T162740Z.png"},
+
     { "rel":"catalog", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json"}
   ],
 
-  "assets": [
-    {
+  "assets": {
+    "thumbnail": { 
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_Freeport_s03_20170831T162740Z.png",
+      "name": "Thumbnail", 
+      "type": "large-thumbnail"
+    },
+
+    "visual": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_Freeport_s03_20170831T162740Z.tif",
       "name": "SkySatScene Visual GeoTIFF (COG)",
       "type": "https://api.planet.com/data/v1/asset-types/ortho_visual"
     }
     
 
-   ]
+   }
 
  
 }

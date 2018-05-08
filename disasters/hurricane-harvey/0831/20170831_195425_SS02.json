@@ -68,14 +68,16 @@
       },
 
   "properties": {
-    "start": "2017-08-31T19:54:26.5328Z",
-    "end": "2017-08-31T19:54:39.963154Z",
+    "datetime": "2017-08-31T19:54:26.5328Z",
     "provider": "Planet",
     "license": "CC-BY-SA",
-    "pl:acquired": "2017-08-31T19:54:26.5328Z",
-    "pl:cloud_cover": 0,
+    "eo:cloud_cover": 0,
+    "eo:gsd": 1.1,
+    "eo:azimuth": 202.8,
+    "eo:sun_azimuth": 231.9,
+    "eo:sun_elevation": 58.4,
+    "eo:off_nadir": 27.3,
     "pl:ground_control": true,
-    "pl:gsd": 1.1,
     "pl:item_type": "SkySatScene",
     "pl:provider": "skysat",
     "pl:published": "2017-09-01T19:15:30Z",
@@ -83,27 +85,29 @@
     "pl:satellite_azimuth": 329.8,
     "pl:satellite_id": "SS02",
     "pl:strip_id": "s02_20170831T195425Z",
-    "pl:sun_azimuth": 231.9,
-    "pl:sun_elevation": 58.4,
-    "pl:updated": "2017-11-01T21:14:45Z",
-    "pl:view_angle": 27.3
+    "pl:updated": "2017-11-01T21:14:45Z"
   },
 
   "links": [
     { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_195425_SS02.json"},
-    { "rel":"thumbnail", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_PortArthur_s02_20170831T195425Z.png"},
     { "rel":"catalog", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json"}
   ],
 
-  "assets": [
-    {
+  "assets": {
+    "thumbnail": { 
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_PortArthur_s02_20170831T195425Z.png",
+      "name": "Thumbnail", 
+      "type": "large-thumbnail"
+    },
+
+    "visual": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_PortArthur_s02_20170831T195425Z.tif",
       "name": "SkySatScene Visual GeoTIFF (COG)",
       "type": "https://api.planet.com/data/v1/asset-types/ortho_visual"
     }
     
 
-   ]
+   }
 
  
 }
