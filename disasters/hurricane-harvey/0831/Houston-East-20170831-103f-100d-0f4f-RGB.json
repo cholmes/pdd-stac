@@ -34,35 +34,38 @@
   },
 
   "properties": {
-    "start": "2017-08-31T17:24:57.555491Z",
-    "end": "2017-08-31T17:26:17.425067Z",
+    "datetime": "2017-08-31T17:24:57.555491Z",
     "provider": "Planet",
     "license": "CC-BY-SA",
-    "pl:cloud_cover": 0.02,
+    "eo:cloud_cover": 2,
+    "eo:gsd": 3.7,
+    "eo:sun_azimuth": 145.5,
+    "eo:sun_elevation": 64.9,
+    "eo:view_angle": 0.2,
     "pl:epsg_code": 32615,
     "pl:ground_control": true,
-    "pl:gsd": 3.7,
     "pl:instrument": "PS2",
-    "pl:provider": "planetscope",
-    "pl:sun_azimuth": 145.5,
-    "pl:sun_elevation": 64.9,
-    "pl:view_angle": 0.2
+    "pl:provider": "planetscope"
   },
 
   "links": [
     { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-RGB.json"},
-    { "rel":"thumbnail", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.png"},
     { "rel":"catalog", "href": "http://cholmes.github.io/stac-html-x/disasters/hurricane-harvey/0831/catalog.json"}
   ],
 
-  "assets": [
-    {
+   "assets": {
+    "thumbnail": { 
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.png",
+      "name": "Thumbnail", 
+      "type": "large-thumbnail"
+    },
+    "mosaic": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.tif",
       "name": "3 Band RGB Mosaic",
       "type": "mosaic"
     }
     
-   ]
+   }
 
  
 }
