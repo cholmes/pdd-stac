@@ -64,7 +64,8 @@
     "mosaic": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.tif",
       "name": "3 Band RGB Mosaic",
-      "type": "mosaic"
+      "type": "mosaic",
+      "format": "cog"
     }
     
    }
