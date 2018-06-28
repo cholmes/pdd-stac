@@ -60,10 +60,10 @@
     "eo:sun_azimuth": 145.4,
     "eo:sun_elevation": 65.1,
     "eo:off_nadir": 0.2,
+    "eo:epsg":32615,
 
     "pl:anomalous_pixels": 0.01,
     "pl:columns": 8307,
-    "pl:epsg_code": 32615,
     "pl:ground_control": true,
     "pl:instrument": "PS2",
     "pl:item_type": "PSScene4Band",
