@@ -6,11 +6,10 @@
     { "rel": "self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json" },
     { "rel": "alternate", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/index.html", "type":"html" },
     { "rel": "parent", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/catalog.json"},
-    { "rel": "item", "href": "20170831_172754_101c.json" },
-    { "rel": "item", "href": "20170831_195552_SS02.json" },
-    { "rel": "item", "href": "20170831_195425_SS02.json" },
-    { "rel": "item", "href": "20170831_162740_ssc1d1.json" },
-    { "rel": "item", "href": "Houston-East-20170831-103f-100d-0f4f-RGB.json" },
-    { "rel": "item", "href": "Harvey-20170831-1040-102e-1044.json" }
+    { "rel": "item", "href": "20170831_172754_101c.json", "slug": "20170831_172754_101c" },
+    { "rel": "item", "href": "20170831_195552_SS02.json", "slug": "20170831_195552_SS02" },
+    { "rel": "item", "href": "20170831_195425_SS02.json", "slug": "20170831_195425_SS02" },
+    { "rel": "item", "href": "20170831_162740_ssc1d1.json", "slug": "20170831_162740_ssc1d1" },
+    { "rel": "item", "href": "Houston-East-20170831-103f-100d-0f4f-RGB.json", "slug": "Houston-East-20170831-103f-100d-0f4f-RGB" }
   ]
 }

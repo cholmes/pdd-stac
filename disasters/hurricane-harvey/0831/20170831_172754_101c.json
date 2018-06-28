@@ -94,7 +94,7 @@
 
     "analytic": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS.tif",
-      "name": "PSScene4Band GeoTIFF",
+      "name": "PSScene4Band Analytic GeoTIFF",
       "type": "https://api.planet.com/data/v1/asset-types/analytic"
     },
     "analytic_xml": {
