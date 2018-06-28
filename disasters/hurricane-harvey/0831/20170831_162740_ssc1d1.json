@@ -124,11 +124,11 @@
     "pl:view_angle": 27.2
   },
 
-  "links": [
-    { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_162740_ssc1d1.json"},
+  "links": {
+    "self": { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_162740_ssc1d1.json"},
 
-    { "rel":"catalog", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json"}
-  ],
+    "catalog": { "rel":"catalog", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json"}
+  },
 
   "assets": {
     "thumbnail": { 

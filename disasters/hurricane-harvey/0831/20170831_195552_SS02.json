@@ -99,10 +99,10 @@
     "pl:updated": "2017-11-01T20:32:39Z"
   },
 
-  "links": [
-    { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_195552_SS02.json"},
-    { "rel":"catalog", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json"}
-  ],
+  "links": {
+    "self": { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_195552_SS02.json"},
+    "catalog": { "rel":"catalog", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json"}
+  },
 
 
   "assets": {

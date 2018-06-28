@@ -48,10 +48,10 @@
     "pl:provider": "planetscope"
   },
 
-  "links": [
-    { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-RGB.json"},
-    { "rel":"catalog", "href": "http://cholmes.github.io/stac-html-x/disasters/hurricane-harvey/0831/catalog.json"}
-  ],
+  "links": {
+    "self": { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-RGB.json"},
+    "catalog": { "rel":"catalog", "href": "http://cholmes.github.io/stac-html-x/disasters/hurricane-harvey/0831/catalog.json"}
+  },
 
    "assets": {
     "thumbnail": { 
