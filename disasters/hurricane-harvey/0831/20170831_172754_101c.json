@@ -94,7 +94,7 @@
 
     "analytic": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS.tif",
-      "name": "PSScene4Band GeoTIFF (COG)",
+      "name": "PSScene4Band GeoTIFF",
       "type": "https://api.planet.com/data/v1/asset-types/analytic"
     },
     "analytic_xml": {
@@ -109,7 +109,8 @@
     },
     "visual": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3b_Visual.tif",
-      "name": "PSScene3Band Visual GeoTIFF (COG)",
+      "name": "PSScene3Band Visual GeoTIFF",
+      "format": "cog",
       "type": "https://api.planet.com/data/v1/asset-types/analytic"
     }
     

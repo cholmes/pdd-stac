@@ -139,7 +139,8 @@
 
     "visual": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_Freeport_s03_20170831T162740Z.tif",
-      "name": "SkySatScene Visual GeoTIFF (COG)",
+      "name": "SkySatScene Visual GeoTIFF",
+      "format": "cog",
       "type": "https://api.planet.com/data/v1/asset-types/ortho_visual"
     }
     
