@@ -1,41 +1,48 @@
 {
-  "name": "Planet Disaster Data",
-  "description": "Planet Disaster Data makes imagery available directly to the public, volunteers, humanitarian organizations, and other coordinating bodies in support of the International Charter for Space and Major Disasters. Data is released for individual disaster events, providing a 30 day window pre- and post-disaster. Imagery is provided under Creative Commons licenses, free of charge, with either CC-BY-SA or CC-BY-NC.",
+  "stac_version": "0.6.0",
+  "id": "planet-disaster-data",
+  "version": "1.0.0",
 
-  "license": {
-    "name": "Creative Commons By Share Alike 4.0",
-    "short_name" : "CC-BY-SA-4.0",
-    "link" : "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
-    "copyright": "Planet, Inc."
+  "title": "Planet Disaster Data",
+  "description": "[Planet Disaster Data](https://www.planet.com/disasterdata/) makes imagery available directly to the public, volunteers, humanitarian organizations, and other coordinating bodies in support of the International Charter for Space and Major Disasters. Data is released for individual disaster events, providing a 30 day window pre- and post-disaster. Imagery is provided under Creative Commons licenses, free of charge, with either CC-BY-SA or CC-BY-NC.",
+
+  "keywords": ["disaster", "open"],
+
+  "license": "CC-BY-SA-4.0",
+
+  "provider": [
+    {
+      "name": "Planet Disaster Team <disaster-team@planet.com>",
+      "roles": ["producer", "licensor"],
+      "url": "https://www.planet.com/disasterdata/"
+    }
+  ],
+
+  "extent": {
+    "spatial": [-180, -90, 180, 90],
+    "temporal": ["0000-01-01T00:00:00Z", null]
   },
 
   "links": [
-    { "rel": "self", "href": "catalog.json" },
-    { "rel": "child", "href": "hurricane-harvey/catalog.json" },
-    { "rel": "alternate", "href": "index.html", "type":"html"}
-  ],
-
-
-
-  "contact": {
-
-    "name": "Planet Disaster Team",
-    "organization": "Planet, inc.",
-    "email": "disaster-team@planet.com",
-    "url": "https://www.planet.com/disasterdata/"
-  },
-
-  "formats": ["geotiff", "cog"],
-
-  "keywords": ["disaster", "open"],
-  "homepage": "https://www.planet.com/disasterdata/",
-
-  "provider": {
-      "scheme": "Google Cloud Storage",
-      "region": "Multi-Regional",
-      "requesterPays": "false"
-  }
-
-
-
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/catalog.json"
+    },
+    { "rel": "root", "href": "catalog.json" },
+    {
+      "rel": "child",
+      "href": "hurricane-harvey/catalog.json",
+      "title": "Hurricane Harvey"
+    },
+    {
+      "rel": "child",
+      "href": "mount-mayon-volcano/catalog.json",
+      "title": "Mount Mayon volcano"
+    },
+    {
+      "rel": "child",
+      "href": "santa-rosa-fires/catalog.json",
+      "title": "Santa Rosa Fires"
+    }
+  ]
 }

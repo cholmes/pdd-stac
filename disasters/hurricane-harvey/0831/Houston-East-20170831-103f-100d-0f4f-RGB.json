@@ -1,4 +1,4 @@
-{
+[ 
   "type": "Feature",
   "id": "Houston-East-20170831-103f-100d-0f4f-RGB",
   "bbox": [
@@ -8,29 +8,16 @@
     30.157560439570304
   ],
   "geometry": {
-  "type": "Polygon",
-  "coordinates": [[
+    "type": "Polygon",
+    "coordinates": [
       [
-        -95.73737276800716,
-        30.14525788823348
-      ],
-      [
-        -95.06532619920118,
-        30.157560439570304
-      ],
-      [
-        -95.05332428370095,
-        29.57334931237589
-      ],
-      [
-        -95.7214758280382,
-        29.561332400220497
-      ],
-      [
-        -95.73737276800716,
-        30.14525788823348
+        [-95.73737276800716, 30.14525788823348],
+        [-95.06532619920118, 30.157560439570304],
+        [-95.05332428370095, 29.57334931237589],
+        [-95.7214758280382, 29.561332400220497],
+        [-95.73737276800716, 30.14525788823348]
       ]
-    ]]
+    ]
   },
 
   "properties": {
@@ -48,25 +35,31 @@
     "pl:provider": "planetscope"
   },
 
-  "links": {
-    "self": { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-RGB.json"},
-    "catalog": { "rel":"catalog", "href": "http://cholmes.github.io/stac-html-x/disasters/hurricane-harvey/0831/catalog.json"}
-  },
+  "links": [ 
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-RGB.json"
+    },
+    {
+      "rel": "collection",
+      "href": "../../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json"
+    }
+  ],
 
-   "assets": {
-    "thumbnail": { 
+  "assets": {
+    "thumbnail": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.png",
-      "name": "Thumbnail", 
-      "type": "large-thumbnail"
+      "title": "Thumbnail",
+      "type": "image/png"
     },
     "mosaic": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.tif",
-      "name": "3 Band RGB Mosaic",
-      "format": "cog",
-      "type": "mosaic"
+      "title": "3 Band RGB Mosaic",
+      "type": "image/x.cloud-optimized-geotiff"
     }
-    
-   }
-
- 
-}
+  }
+ ]
