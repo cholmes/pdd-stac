@@ -10,7 +10,7 @@
 
   "license": "CC-BY-SA-4.0",
 
-  "provider": [
+  "providers": [
     {
       "name": "Planet Disaster Team <disaster-team@planet.com>",
       "roles": ["producer", "licensor"],
