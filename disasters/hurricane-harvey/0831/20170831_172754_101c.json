@@ -1,52 +1,25 @@
 {
   "type": "Feature",
   "id": "20170831_172754_101c",
-    "bbox": [
-      -96.04001623809913,
-      29.512344359576105,
-      -95.7821382652893,
-      29.62330817060518
-    ],
+  "bbox": [
+    -96.04001623809913,
+    29.512344359576105,
+    -95.7821382652893,
+    29.62330817060518
+  ],
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
-        [
-          -96.03352746458962,
-          29.549057939888584
-        ],
-        [
-          -96.03810006842333,
-          29.569454227086553
-        ],
-        [
-          -96.03730797076582,
-          29.569591543553933
-        ],
-        [
-          -96.04001623809913,
-          29.581290775117473
-        ],
-        [
-          -95.79781720037577,
-          29.62330817060518
-        ],
-        [
-          -95.78672161779234,
-          29.575096137087073
-        ],
-        [
-          -95.7821382652893,
-          29.55447424651818
-        ],
-        [
-          -96.0250376017418,
-          29.512344359576105
-        ],
-        [
-          -96.03352746458962,
-          29.549057939888584
-        ]
+        [-96.03352746458962, 29.549057939888584],
+        [-96.03810006842333, 29.569454227086553],
+        [-96.03730797076582, 29.569591543553933],
+        [-96.04001623809913, 29.581290775117473],
+        [-95.79781720037577, 29.62330817060518],
+        [-95.78672161779234, 29.575096137087073],
+        [-95.7821382652893, 29.55447424651818],
+        [-96.0250376017418, 29.512344359576105],
+        [-96.03352746458962, 29.549057939888584]
       ]
     ]
   },
@@ -60,7 +33,7 @@
     "eo:sun_azimuth": 145.4,
     "eo:sun_elevation": 65.1,
     "eo:off_nadir": 0.2,
-    "eo:epsg":32615,
+    "eo:epsg": 32615,
 
     "pl:anomalous_pixels": 0.01,
     "pl:columns": 8307,
@@ -80,42 +53,51 @@
     "pl:usable_data": 0
   },
 
-  "links": {
-    "self": { "rel":"self", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c.json"},
-    "catalog": { "rel":"catalog", "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/catalog.json"}
-  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c.json"
+    },
+    {
+      "rel": "collection",
+      "href": "../../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json"
+    }
+  ],
 
   "assets": {
-    "thumbnail": { 
+    "thumbnail": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_thumb_large.png",
-      "name": "Thumbnail", 
-      "type": "large-thumbnail"
+      "title": "Thumbnail",
+      "type": "image/png"
     },
 
     "analytic": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS.tif",
-      "name": "PSScene4Band Analytic GeoTIFF",
-      "type": "https://api.planet.com/data/v1/asset-types/analytic"
+      "title": "PSScene4Band Analytic GeoTIFF",
+      "pl:type": "https://api.planet.com/data/v1/asset-types/analytic",
+      "type": "image/x.cloud-optimized-geotiff"
     },
     "analytic_xml": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_metadata.xml",
-      "name": "PSScene4Band XML Metadata",
-      "type": "https://api.planet.com/data/v1/asset-types/analytic_xml"
+      "title": "PSScene4Band XML Metadata",
+      "pl:type": "https://api.planet.com/data/v1/asset-types/analytic_xml",
+      "type": "image/x.cloud-optimized-geotiff"
     },
     "udm": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_DN_udm.tif",
-      "name": "PSScene4Band Unusable Data Mask",
-      "type": "https://api.planet.com/data/v1/asset-types/udm"
+      "title": "PSScene4Band Unusable Data Mask",
+      "pl:type": "https://api.planet.com/data/v1/asset-types/udm",
+      "type": "image/x.cloud-optimized-geotiff"
     },
     "visual": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3b_Visual.tif",
-      "name": "PSScene3Band Visual GeoTIFF",
-      "format": "cog",
-      "type": "https://api.planet.com/data/v1/asset-types/analytic"
+      "title": "PSScene3Band Visual GeoTIFF",
+      "pl:type": "https://api.planet.com/data/v1/asset-types/analytic",
+      "type": "image/x.cloud-optimized-geotiff"
     }
-    
-
-   }
-
- 
+  }
 }
