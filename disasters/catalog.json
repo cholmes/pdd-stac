@@ -33,16 +33,6 @@
       "rel": "child",
       "href": "hurricane-harvey/catalog.json",
       "title": "Hurricane Harvey"
-    },
-    {
-      "rel": "child",
-      "href": "mount-mayon-volcano/catalog.json",
-      "title": "Mount Mayon volcano"
-    },
-    {
-      "rel": "child",
-      "href": "santa-rosa-fires/catalog.json",
-      "title": "Santa Rosa Fires"
     }
   ]
 }
