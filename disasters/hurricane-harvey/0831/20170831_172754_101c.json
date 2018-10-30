@@ -79,25 +79,25 @@
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS.tif",
       "title": "PSScene4Band Analytic GeoTIFF",
       "pl:type": "https://api.planet.com/data/v1/asset-types/analytic",
-      "type": "image/x.cloud-optimized-geotiff"
+      "type": "image/vnd.stac.geotiff; cloud-optimized=true"
     },
     "analytic_xml": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_metadata.xml",
       "title": "PSScene4Band XML Metadata",
       "pl:type": "https://api.planet.com/data/v1/asset-types/analytic_xml",
-      "type": "image/x.cloud-optimized-geotiff"
+      "type": "text/xml"
     },
     "udm": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_DN_udm.tif",
       "title": "PSScene4Band Unusable Data Mask",
       "pl:type": "https://api.planet.com/data/v1/asset-types/udm",
-      "type": "image/x.cloud-optimized-geotiff"
+      "type": "image/vnd.stac.geotiff; cloud-optimized=true"
     },
     "visual": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3b_Visual.tif",
       "title": "PSScene3Band Visual GeoTIFF",
-      "pl:type": "https://api.planet.com/data/v1/asset-types/analytic",
-      "type": "image/x.cloud-optimized-geotiff"
+      "pl:type": "https://api.planet.com/data/v1/asset-types/visual",
+      "type": "image/vnd.stac.geotiff; cloud-optimized=true"
     }
   }
 }
