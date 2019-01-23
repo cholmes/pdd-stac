@@ -63,6 +63,10 @@
       "href": "../../catalog.json"
     },
     {
+      "rel": "root",
+      "href": "../../catalog.json"
+    },
+    {
       "rel": "parent",
       "href": "catalog.json"
     }
