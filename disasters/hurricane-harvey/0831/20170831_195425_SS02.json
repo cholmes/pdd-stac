@@ -51,10 +51,6 @@
 
   "links": [
     {
-      "rel": "self",
-      "href": "20170831_195425_SS02.json"
-    },
-    {
       "rel": "collection",
       "href": "../../catalog.json"
     },

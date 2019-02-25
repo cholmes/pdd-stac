@@ -60,10 +60,6 @@
 
   "links": [
     {
-      "rel": "self",
-      "href": "20170831_162740_ssc1d1.json"
-    },
-    {
       "rel": "collection",
       "href": "../../catalog.json"
     },

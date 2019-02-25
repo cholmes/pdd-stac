@@ -55,10 +55,6 @@
 
   "links": [
     {
-      "rel": "self",
-      "href": "20170831_172754_101c.json"
-    },
-    {
       "rel": "collection",
       "href": "../../catalog.json"
     },

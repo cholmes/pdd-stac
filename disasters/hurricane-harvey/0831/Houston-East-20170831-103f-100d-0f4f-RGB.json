@@ -37,10 +37,6 @@
 
   "links": [
     {
-      "rel": "self",
-      "href": "Houston-East-20170831-103f-100d-0f4f-RGB.json"
-    },
-    {
       "rel": "collection",
       "href": "../../catalog.json"
     },
