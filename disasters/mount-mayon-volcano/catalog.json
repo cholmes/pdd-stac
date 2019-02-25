@@ -7,9 +7,13 @@
   "links": [
     {
       "rel": "self",
-      "href": "http://cholmes.github.io/stac-html-x/disasters/mount-mayon/catalog.json"
+      "href": "catalog.json"
     },
-    { "rel": "root", "href": "../catalog.json" },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "href:from": "mount-mayon/catalog.json"
+    },
     {
       "rel": "parent",
       "href": "../catalog.json"

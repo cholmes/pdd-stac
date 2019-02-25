@@ -7,9 +7,13 @@
   "links": [
     {
       "rel": "self",
-      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/catalog.json"
+      "href": "catalog.json"
     },
-    { "rel": "root", "href": "../catalog.json" },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "href:from": "hurricane-harvey/catalog.json"
+    },
     {
       "rel": "parent",
       "href": "../catalog.json"

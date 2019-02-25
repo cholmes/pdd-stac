@@ -7,9 +7,13 @@
   "links": [
     {
       "rel": "self",
-      "href": "http://cholmes.github.io/stac-html-x/disasters/santa-rosa-fires/catalog.json"
+      "href": "catalog.json"
     },
-    { "rel": "root", "href": "../catalog.json" },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "href:from": "santa-rosa-fires/catalog.json"
+    },
     { "rel": "parent", "href": "../catalog.json" }
   ]
 }
