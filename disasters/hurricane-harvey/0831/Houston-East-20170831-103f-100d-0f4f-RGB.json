@@ -38,8 +38,8 @@
   "links": [
     {
       "rel": "collection",
-      "href": "../../catalog.json",
-      "href:from": "hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-RGB.json"
+      "href": "../../collections/planet-collection.json",
+      "href:from": "../hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-RGB.json"
     },
     {
       "rel": "parent",
