@@ -1,4 +1,10 @@
 {
+  "stac_version": "0.9.0-rc1",
+  "stac_extensions": [
+      "eo",
+      "sat",
+      "proj"
+  ],
   "type": "Feature",
   "id": "Houston-East-20170831-103f-100d-0f4f-RGB",
   "bbox": [
@@ -26,10 +32,10 @@
     "license": "CC-BY-SA",
     "eo:cloud_cover": 2,
     "eo:gsd": 3.7,
-    "eo:sun_azimuth": 145.5,
-    "eo:sun_elevation": 64.9,
-    "eo:view_angle": 0.2,
-    "pl:epsg_code": 32615,
+    "sat:sun_azimuth_angle": 145.5,
+    "sat:sun_elevation_angle": 64.9,
+    "sat:off_nadir_angle": 0.2,
+    "proj:epsg_code": 32615,
     "pl:ground_control": true,
     "pl:instrument": "PS2",
     "pl:provider": "planetscope"
@@ -54,6 +60,7 @@
     "thumbnail": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.png",
       "title": "Thumbnail",
+      "roles": [ "thumbnail" ],
       "type": "image/png"
     },
     "mosaic": {

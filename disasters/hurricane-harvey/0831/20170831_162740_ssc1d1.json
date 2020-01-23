@@ -1,4 +1,9 @@
 {
+  "stac_version": "0.9.0-rc1",
+  "stac_extensions": [
+      "eo",
+      "sat"
+  ],
   "type": "Feature",
   "id": "20170831_162740_ssc1d1",
   "bbox": [
@@ -43,10 +48,10 @@
     "license": "CC-BY-SA",
     "eo:cloud_cover": 0,
     "eo:gsd": 0.9,
-    "eo:azimuth": 121.3,
-    "eo:sun_azimuth": 122,
-    "eo:sun_elevation": 56.3,
-    "eo:off_nadir": 0.2,
+    "sat:azimuth_angle": 121.3,
+    "sat:sun_azimuth_angle": 122,
+    "sat:sun_elevation_angle": 56.3,
+    "sat:off_nadir_angle": 27.2,
     "pl:ground_control": true,
     "pl:item_type": "SkySatScene",
     "pl:provider": "skysat",
@@ -54,8 +59,7 @@
     "pl:quality_category": "standard",
     "pl:satellite_id": "SSC1",
     "pl:strip_id": "s03_20170831T162740Z",
-    "pl:updated": "2017-11-01T21:09:02Z",
-    "pl:view_angle": 27.2
+    "pl:updated": "2017-11-01T21:09:02Z"
   },
 
   "links": [
@@ -81,6 +85,7 @@
     "thumbnail": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_Freeport_s03_20170831T162740Z.png",
       "title": "Thumbnail",
+      "roles": [ "thumbnail" ], 
       "type": "image/png"
     },
 

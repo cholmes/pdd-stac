@@ -1,4 +1,9 @@
 {
+  "stac_version": "0.9.0-rc1",
+  "stac_extensions": [
+      "eo",
+      "sat"
+  ],
   "type": "Feature",
   "id": "2017831_195552_SS02",
   "bbox": [
@@ -37,10 +42,10 @@
     "license": "CC-BY-SA",
     "eo:cloud_cover": 24,
     "eo:gsd": 1.1,
-    "eo:azimuth": 202.8,
-    "eo:sun_azimuth": 230.3,
-    "eo:sun_elevation": 59.4,
-    "eo:off_nadir": 25,
+    "sat:azimuth_angle": 202.8,
+    "sat:sun_azimuth_angle": 230.3,
+    "sat:sun_elevation_angle": 59.4,
+    "sat:off_nadir_angle": 25,
     "pl:ground_control": true,
     "pl:item_type": "SkySatScene",
     "pl:provider": "skysat",
@@ -74,6 +79,7 @@
     "thumbnail": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB.png",
       "title": "Thumbnail",
+      "roles": [ "thumbnail" ],
       "type": "image/png"
     },
     "visual": {
