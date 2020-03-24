@@ -35,8 +35,6 @@
   "collection":"planet-disaster-data",
   "properties": {
     "datetime": "2017-08-31T19:54:26.5328Z",
-    "provider": "Planet",
-    "license": "CC-BY-SA",
     "updated": "2017-11-01T21:14:45Z",
     "created": "2017-09-01T19:15:30Z",
     "platform": "SS02",

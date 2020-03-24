@@ -33,7 +33,6 @@
 
   "properties": {
     "datetime": "2017-08-31T17:27:54.96053Z",
-    "license": "CC-BY-SA",
     "instruments": ["PS2"],
     "platform": "101c",
     "constellation": "planetscope",
