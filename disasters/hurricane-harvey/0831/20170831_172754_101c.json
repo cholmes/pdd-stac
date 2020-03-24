@@ -1,8 +1,8 @@
 {
-  "stac_version": "0.9.0-rc1",
+  "stac_version": "0.9.0",
   "stac_extensions": [
       "eo",
-      "sat",
+      "view",
       "proj"
   ],
   "type": "Feature",
@@ -29,32 +29,32 @@
       ]
     ]
   },
+  "collection":"planet-disaster-data",
 
   "properties": {
     "datetime": "2017-08-31T17:27:54.96053Z",
-    "provider": "Planet",
     "license": "CC-BY-SA",
+    "instruments": ["PS2"],
+    "platform": "101c",
+    "constellation": "planetscope",
+    "created": "2017-10-27T12:14:07Z",
+    "updated": "2017-12-07T07:37:28Z",
     "eo:cloud_cover": 2,
     "eo:gsd": 2.6,
-    "sat:sun_azimuth_angle": 145.4,
-    "sat:sun_elevation_angle": 65.1,
-    "sat:off_nadir_angle": 0.2,
+    "view:sun_azimuth": 145.4,
+    "view:sun_elevation": 65.1,
+    "view:off_nadir": 0.2,
     "proj:epsg": 32615,
     "pl:anomalous_pixels": 0.01,
     "pl:columns": 8307,
     "pl:ground_control": true,
-    "pl:instrument": "PS2",
     "pl:item_type": "PSScene4Band",
     "pl:origin_x": 205503,
     "pl:origin_y": 3280320,
     "pl:pixel_resolution": 3,
-    "pl:provider": "planetscope",
-    "pl:published": "2017-10-27T12:14:07Z",
     "pl:quality_category": "test",
     "pl:rows": 3918,
-    "pl:satellite_id": "101c",
     "pl:strip_id": "724553",
-    "pl:updated": "2017-12-07T07:37:28Z",
     "pl:usable_data": 0
   },
 

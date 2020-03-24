@@ -1,5 +1,10 @@
 {
-  "stac_version": "0.6.0",
+  "stac_version": "0.9.0",
+  "stac_extensions": [
+      "view",
+      "eo",
+      "proj"
+    ],
   "id": "planet-disaster-data",
   "version": "1.0.0",
 
@@ -12,15 +17,32 @@
 
   "providers": [
     {
+      "name": "Planet",
+      "roles": ["producer","processor"],
+      "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "url": "http://planet.com"
+    }
+    {
       "name": "Planet Disaster Team <disaster-team@planet.com>",
-      "roles": ["producer", "licensor"],
+      "roles": ["licensor"],
+      "description": "The Planet Disaster Data Team has released this data as CC-BY-SA-4.0 to help disaster response",
       "url": "https://www.planet.com/disasterdata/"
+    }
+    {
+      "name": "Google Cloud Platform",
+      "roles": "host",
+      "description": "Hosting is done on a GCP storage bucket owned by the Planet Disaster Data team",
+      "url": "https://storage.googleapis.com/pdd-stac/"
     }
   ],
 
   "extent": {
-    "spatial": [-96, 28, -93, 31],
-    "temporal": ["2017-08-28T10:00:00-08:00", null]
+    "spatial": {
+      "bbox": [[-96, 28, -93, 31]]
+  },
+    "temporal": {
+      "interval": [["2017-08-28T10:00:00-08:00", null]]
+  }
   },
 
   "links": [
