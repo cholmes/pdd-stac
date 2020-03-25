@@ -21,13 +21,13 @@
       "roles": ["producer","processor"],
       "description": "Contact Planet at https://www.planet.com/contact-sales/",
       "url": "http://planet.com"
-    }
+    },
     {
       "name": "Planet Disaster Team <disaster-team@planet.com>",
       "roles": ["licensor"],
       "description": "The Planet Disaster Data Team has released this data as CC-BY-SA-4.0 to help disaster response",
       "url": "https://www.planet.com/disasterdata/"
-    }
+    },
     {
       "name": "Google Cloud Platform",
       "roles": "host",
