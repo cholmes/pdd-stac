@@ -2,7 +2,7 @@
   "stac_version": "0.9.0",
   "stac_extensions": [
       "eo",
-      "sat",
+      "view",
       "proj"
   ],
   "type": "Feature",
@@ -36,7 +36,7 @@
     "view:sun_elevation": 64.9,
     "view:off_nadir": 0.2,
     "proj:epsg_code": 32615,
-    "pl:ground_control": true,
+    "pl:ground_control": true
   },
   "collection":"planet-disaster-data",  
   "links": [
