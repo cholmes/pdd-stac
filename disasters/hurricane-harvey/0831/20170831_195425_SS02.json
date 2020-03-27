@@ -83,6 +83,7 @@
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_PortArthur_s02_20170831T195425Z.tif",
       "title": "SkySatScene Visual GeoTIFF",
       "type": "image/vnd.stac.geotiff; cloud-optimized=true",
+      "roles": ["data"],
       "pl:type": "https://api.planet.com/data/v1/asset-types/ortho_visual"
     }
   }

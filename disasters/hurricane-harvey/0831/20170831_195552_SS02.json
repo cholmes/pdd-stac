@@ -84,11 +84,13 @@
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB.tif",
       "title": "SkySatScene Visual GeoTIFF",
       "type": "image/vnd.stac.geotiff; cloud-optimized=true",
+      "roles": ["data"],
       "pl:type": "https://api.planet.com/data/v1/asset-types/ortho_visual"
     },
     "full-jpg": {
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB_Corrected.jpg",
       "title": "SkySatScene Visual JPG",
+      "roles": ["overview"],
       "type": "image/jpeg"
     }
   }
