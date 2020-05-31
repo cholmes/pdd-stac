@@ -24,7 +24,7 @@
     },
     {
       "name": "Google Cloud Platform",
-      "roles": "host",
+      "roles": ["host"],
       "description": "Hosting is done on a GCP storage bucket owned by the Planet Disaster Data team",
       "url": "https://storage.googleapis.com/pdd-stac/"
     }
