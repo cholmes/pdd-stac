@@ -1,5 +1,5 @@
 {
-  "stac_version": "0.9.0",
+  "stac_version": "1.0.0-beta.1",
   "stac_extensions": [
       "eo",
       "view"
@@ -38,8 +38,8 @@
     "updated": "2017-11-01T21:14:45Z",
     "created": "2017-09-01T19:15:30Z",
     "platform": "SS02",
+    "gsd": 1.1,
     "eo:cloud_cover": 0,
-    "eo:gsd": 1.1,
     "view:azimuth": 202.8,
     "view:sun_azimuth": 231.9,
     "view:sun_elevation": 58.4,

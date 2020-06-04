@@ -1,5 +1,5 @@
 {
-  "stac_version": "0.9.0",
+  "stac_version": "1.0.0-beta.1",
   "stac_extensions": [
       "eo",
       "view",
@@ -38,8 +38,8 @@
     "constellation": "planetscope",
     "created": "2017-10-27T12:14:07Z",
     "updated": "2017-12-07T07:37:28Z",
+    "gsd": 2.6,
     "eo:cloud_cover": 2,
-    "eo:gsd": 2.6,
     "view:sun_azimuth": 145.4,
     "view:sun_elevation": 65.1,
     "view:off_nadir": 0.2,
