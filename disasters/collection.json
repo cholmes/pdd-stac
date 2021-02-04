@@ -15,7 +15,7 @@
         },
         {
             "rel": "self",
-            "href": "/Users/loaner/Repos/python-stuff/pdd-stac/disasters/collection.json",
+            "href": "https://raw.githubusercontent.com/cholmes/pdd-stac/beta2/disasters/collection.json",
             "type": "application/json"
         }
     ],
