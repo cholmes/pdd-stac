@@ -68,11 +68,6 @@
 
   "links": [
     {
-      "rel": "self",
-      "href": "https://storage.googleapis.com/pdd-stac/disasters/catalog.json"
-    },
-    { "rel": "root", "href": "catalog.json" },
-    {
       "rel": "child",
       "href": "hurricane-harvey/catalog.json",
       "title": "Hurricane Harvey"

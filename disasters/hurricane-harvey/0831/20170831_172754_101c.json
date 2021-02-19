@@ -59,16 +59,13 @@
 
   "links": [
     {
-      "rel": "self",
-      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c.json"
-    },
-    {
       "rel": "collection",
       "href": "../../catalog.json"
     },
     {
       "rel": "root",
-      "href": "../../catalog.json"
+      "href": "../../catalog.json",
+      "href:from": "hurricane-harvey/0831/20170831_172754_101c.json"
     },
     {
       "rel": "parent",
