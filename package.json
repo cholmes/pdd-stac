@@ -4,7 +4,7 @@
   "description": "STAC HTML Template development examples",
   "main": "./src/index.html",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "ol": "^4.6.4",
     "ol-hashed": "^1.0.2",
     "parcel-plugin-handlebars": "^0.4.4"
